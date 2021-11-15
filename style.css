@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Yuji Boku', 'sans-serif';
+    background-color: black;
+}
+
+.container {
+    height: 500px;
+    width: 350px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 600px;
+    border-radius: 20px;
+    background: black;
+    box-shadow: 14px 14px 20px #CBCED1, -14px -14px 20px black;
+}
+
+.brand-title {
+    font-weight: 900;
+    font-size: 40px;
+    color: #000080;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+
+input,
+label,
+button {
+    width: 100%;
+    background-color: #000080;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Yuji Boku', 'sans-serif';
+
+}
+
+input::placeholder {
+    color: gray;
+}
+
+input {
+    width: 330px;
+    background-color: white;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #CBCED1, inset -6px -6px 6px #000080;
+}
+
+button {
+    margin-top: 50px;
+    width: 330px;
+    background-color: #000080;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 6px 6px 6px #CBCED1, -6px -6px 6px #000080;
+}
+
+button:hover {
+    box-shadow: none;
+}
